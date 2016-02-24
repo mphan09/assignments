@@ -1,0 +1,19 @@
+#section-one{
+	width: 200px;
+	height: 100px;
+	background-color: pink;
+}
+
+#section-two{
+	width: 200px;
+	height: 100px;
+	background-color: lightgreen;
+}
+
+#section-three{
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	display:none;
+}
+
