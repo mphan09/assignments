@@ -1,33 +1,94 @@
-$( document ).ready(
-	function() {
-  
-        $("body").hide();
-		$("body").show();
-		$("#section-one").fadeIn(10); //fades in
-		$("#section-one").fadeOut(10); //fades out
-		$("#section-one").fadeIn(4000);
-		$("#section-one").slideUp(1000); //slide up
-		$("#section-one").slideDown(4000); //slide down
-		$(".my-element").animate( {
-			opacity: 0.25,
-			width: "50%"
-		} , 2000 );
-		
-		// link to twitter, when click alert pop-up shows
-		
-        $("ul li a").click( 
-  		function(){
-    		alert('You are now going to tweet!');
-  		}
-  	);
-        $("#section-two").slideUp(2000);
-        $("#section-two").slideDown(4000);
-  	
-        $("#section-three").show( 
-  		function(){
-  			$("#section-three").animate( {
-  				width: "50%"
-  			}, 2000 );
-		});
-	}
-);
+//alert("Hello");
+
+//var playerName = "Melissa";
+//var fullName = " Hi "  + playerName;
+
+//console.log(playerName + fullName);
+
+//var stringToShout=prompt('Name');
+//var shout = stringToShout.toUpperCase();
+//shout  =+ "!!!";
+
+//if(true){
+//    console.log("This is true");
+//    }
+
+//var message = "Hello";
+//alert(message);
+
+//message = "Welcome to JavaScript";
+//alert(message);
+
+//document.write("Welcome");
+//alert("Thanks for visiting");
+
+// var visitorName = prompt('What is your name?');
+// alert(visitorName);
+
+// console.log(visitorName);
+
+// var myApartment = {
+//        isGross: true,
+//        address: "10 main street",
+//        floor: 4,
+// };
+
+// console.log(myApartment.address);
+
+//var iAmMel = {  
+//    firstname: "Melissa",
+//    lastname: "Phan",
+//    interests: ["JS", "Dance"]
+//};
+
+//console.log(iAmMel.interests[0]);
+
+//var x = 12;
+//if (x<10) {
+//   alert("Your number is less than 10");
+//} else {
+//    alert(x + " is greater than 10");
+//}
+
+//* an array //
+animals = ["Tigers", "Pandas"]; 
+    for(var i = 0; i< animals.length; i++)
+    {   console.log(animals[i]); 
+    }
+
+>>"Tigers" "Pandas"
+
+function first(wood, pumpkin){
+    return "hi " + wood + pumpkin;
+}
+
+console.log(first("rubber ", "gloves"));
+
+var num_1 = 10;
+var num_2 = 2;
+
+console.log(num_1 * num_2);
+
+var myPet = {
+       isFluffy: true,
+       breed: "husky",
+       age: 4,
+};
+
+console.log(myPet.breed);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
